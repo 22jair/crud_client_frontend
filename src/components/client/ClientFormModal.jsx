@@ -16,11 +16,10 @@ export const ClientFormModal = ({ isVisible=false, isEdit=false, handleToggleFor
 
   useEffect(() => form.resetFields(), [form, clientSelected]);
 
-  const onFinish = async values => {   
-
+  const onFinish = async values => {
     try{
       if(isEdit){
-        await dispatch(loadUpdateClient(values));
+        await dispatch(loadUpdateClient(values.id, values));
       }else{
         await dispatch(loadSaveClient(values));
       }
