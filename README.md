@@ -15,7 +15,9 @@
     DATA ESTADISTICA ( Promedio por Edad, ...otros )
     
 ### DESPLIEGUE - HEROKU
-    Frontend: https://mdpfrontend.herokuapp.com/
-    Backend: https://mdpbackend.herokuapp.com/api/client/
-
+    Frontend:      https://mdpfrontend.herokuapp.com/
+    Backend:       https://mdpbackend.herokuapp.com/api/client/
+    RepoFrontend:  https://github.com/22jair/mdpfrontend
+    RepoBackend:   https://github.com/22jair/mdpbackend
+    
 -- Jair Arteaga
