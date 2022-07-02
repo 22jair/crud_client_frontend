@@ -24,7 +24,7 @@ const Dashboard = ({ children }) => {
       onCollapse={toggle}
       className={theme==='dark'? "ant-layout-sider-dark": "ant-layout-sider-light"}
     >
-      <div className="logo" > MDP </div>
+      <div className="logo" > ARSA </div>
       <Menu         
         defaultSelectedKeys={['1']}
         mode="inline">
